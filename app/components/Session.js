@@ -1,11 +1,10 @@
 'use client'
 
-import Cal, { getCalApi } from "@calcom/embed-react"
-import { useEffect } from "react"
+import Cal from "@calcom/embed-react"
 
 export default function Session() {
     return (
-        <section className="w-full p-[3rem] md:p-[6rem] flex flex-col items-center">
+        <section id="session" className="w-full p-[3rem] md:p-[6rem] flex flex-col items-center">
             <div className="flex flex-col max-w-4xl">
                 <h3 className="text-leader pb-8">Want an introductory chat?</h3>
                 <p className="text-about leading-8 pb-8">

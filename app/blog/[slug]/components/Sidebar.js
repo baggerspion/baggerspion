@@ -14,8 +14,7 @@ export default function Sidebar({ current }) {
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/blog">Blog</Link></li>
-                    <li>Book</li>
-                    <li>About</li>
+                    <li><Link href="/#session">Introductory Meeting</Link></li>
                 </ul>
             </div>
             <div>
