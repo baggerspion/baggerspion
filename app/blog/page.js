@@ -11,6 +11,9 @@ export default function Blog() {
 
     return (
         <main className='flex flex-col'>
+            <div className='flex flex-col p-[3rem] md:p-[6rem] bg-white items-center'>
+                <h2 className='text-header'>Blog</h2>
+            </div>
             {posts.map((post, index) => (
                 <div key={index} className='flex flex-col md:even:flex-row md:odd:flex-row-reverse'>
                     <div className='w-full md:w-1/2 h-[30rem] relative'>
