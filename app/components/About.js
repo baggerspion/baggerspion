@@ -27,7 +27,7 @@ export default function About() {
                     <h3 className="text-leader pb-8">Guidance For Your Engineers</h3>
                     <p className="text-about leading-8">
                         Your team deserves to be productive and happy. I can work directly with your engineers to ensure obstacles are removed from their path.
-                        Don't just build a great product, build a great culture that your team loves.
+                        Don&apos;t just build a great product, build a great culture that your team loves.
                     </p>
                 </div> 
             </div>
