@@ -26,9 +26,9 @@ export default function About() {
                 <div className="h-[30rem] w-screen md:w-1/2 bg-white p-[3rem] md:p-[6rem] flex flex-col justify-center">
                     <h3 className="text-leader pb-8">Guidance For Your Engineers</h3>
                     <p className="text-about leading-8">
-                        Your team deserves to be productive and happy. But do you have the time to know if either is true?
-                        I can work directly with your team to ensure obstacles are removed from their path.
-                   </p>
+                        Your team deserves to be productive and happy. I can work directly with your engineers to ensure obstacles are removed from their path.
+                        Don't just build a great product, build a great culture that your team loves.
+                    </p>
                 </div> 
             </div>
         </section>
