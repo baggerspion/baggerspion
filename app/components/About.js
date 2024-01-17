@@ -17,7 +17,7 @@ export default function About() {
                     <h3 className="text-leader pb-8">Focus For Your CTO</h3>
                     <p className="text-about leading-8">
                         As your business grows, the CTO role will grow in complexity. At times you will be a tech lead. At other times you will be a manager... or accountant.
-                        I'm happy to share the load with you; let you focus on what is most important.
+                        I&apos;m happy to share the load with you; let you focus on what is most important.
                     </p>
                 </div>            
             </div>

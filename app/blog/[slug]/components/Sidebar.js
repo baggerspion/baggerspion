@@ -29,7 +29,7 @@ export default function Sidebar({ current }) {
                     }).map((sidepost, index) => (
                         <div key={index} className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
                             <div className="min-w-[100px] h-[100px] relative">
-                                <Image fill quality={50} style={{objectFit: "cover"}} src={`/blogpic/${sidepost.image}`} />
+                                <Image alt="Blog post header image" fill quality={50} style={{objectFit: "cover"}} src={`/blogpic/${sidepost.image}`} />
                             </div>
                             <div className="flex flex-col justify-center">
                                 <Link href={`/blog/${sidepost.slug}`}><h3>{sidepost.title}</h3></Link>    

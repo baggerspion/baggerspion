@@ -14,7 +14,7 @@ export default function Blog() {
             {posts.map((post, index) => (
                 <div key={index} className='flex flex-col md:even:flex-row md:odd:flex-row-reverse'>
                     <div className='w-full md:w-1/2 h-[30rem] relative'>
-                        <Image src={`/blogpic/${post.image}`} fill style={{objectFit: "cover", objectPosition: "center"}} />
+                        <Image alt="Blog post header image" src={`/blogpic/${post.image}`} fill style={{objectFit: "cover", objectPosition: "center"}} />
                     </div>
                     <div className='w-full h-[30rem] md:w-1/2 flex flex-col justify-between p-[3rem] md:p-[6rem]'>
                         <div>
