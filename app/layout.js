@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/next'
+
 import { Raleway } from 'next/font/google'
 import './globals.css'
 
@@ -31,6 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={font.className}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )
