@@ -1,32 +1,28 @@
-import clsx from "clsx"
+'use client'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+
+import { useState } from "react"
 
 import Link from "next/link"
 
-export default function Menu({ color }) {
-    const classes = clsx({
-        "absolute top-0 w-full z-10 pt-14 px-14": true,
-        "text-white": color === "white",
-        "text-black": color === "black",
-    })
+export default function Menu() {
+    const [shown, setShown] = useState(false)
 
     return (
-        <section className={classes}>
-            <div className='w-full max-w-4xl mx-auto'>
-                <div className='flex flex-row justify-between'>
-                    <Link href="/"><span className='text-2xl font-semibold cursor-pointer'>Baggerspion.</span></Link>
-                    <menu className='flex flex-row space-x-8 pt-2'>
-                        <span>You</span>
-                        <Link href="/blog"><span>Blog</span></Link>
-                        <Link href="/about"><span>About</span></Link>
-                        <Link href="/blog"><FontAwesomeIcon icon={faXTwitter} /></Link>
-                        <Link href="/blog"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
-                        <Link href="/blog"><FontAwesomeIcon icon={faGithub} /></Link>
-                    </menu>
+        <menu className="absolute top-[3rem] right-[3rem] md:top-[6rem] md:right-[6rem] flex flex-col items-end">
+            <span className="text-white cursor-pointer"><FontAwesomeIcon icon={faBars} onClick={() => setShown(!shown)} /></span>
+            {shown ?
+                <div className='w-40 h-40 bg-orange-300'>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Introductory Meeting</li>
+                    </ul>
                 </div>
-            </div>            
-        </section>
+            :
+                null
+            }
+        </menu>
     )
 }
