@@ -11,12 +11,12 @@ export default function Pricing() {
             </p>
             <div className="grid grid-cols-3 gap-10">
                 <div className="h-full">                                
-                    <div class="relative flex flex-col h-full p-6 pb-10">
+                    <div className="relative flex flex-col h-full p-6 pb-10">
                         <div className="mb-5">
                             <div className="font-semibold mb-1">On-Demand</div>
                             <div className="inline-flex items-baseline mb-2">
                                 <span className="font-bold text-3xl">£</span>
-                                <span className="font-bold text-4xl">350</span>
+                                <span className="font-bold text-4xl">300</span>
                                 <span className="text-slate-500 font-medium">/hour</span>
                             </div>
                             <div className="text-sm text-slate-500 mb-5">Keep things moving with my experienced, impartial advice when it&apos;s most valuable to you. </div>
@@ -94,7 +94,7 @@ export default function Pricing() {
                                 <span className="text-slate-500 font-medium">/month</span>
                                 <span className="font-medium px-2">+</span>
                                 <span className="font-bold text-3xl"> £</span>
-                                <span className="font-bold text-4xl">250</span>
+                                <span className="font-bold text-4xl">200</span>
                                 <span className="text-slate-500 font-medium">/hour</span>
                             </div>
                             <div className="text-sm text-slate-500 mb-5">Supporting your CTO in building an incredible engineering organisation, designed to last</div>
