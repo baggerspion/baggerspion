@@ -7,18 +7,18 @@ export const metadata = {
     title: 'Baggerspion: About.',
     description: 'Fractional Engineering Leadership from Paul Finlayson Adams',
     openGraph: {
-      title: 'Baggerspion: About.',
-      siteName: 'Baggerspion.',
-      description: 'Fractional Engineering Leadership from Paul Finlayson Adams',
-      type: 'website',
-      url: 'https://baggerspion.net/about',
-      images: [
-        {
-          url: `/paul.jpg`
-        },
-      ],
+        title: 'Baggerspion: About.',
+        siteName: 'Baggerspion.',
+        description: 'Fractional Engineering Leadership from Paul Finlayson Adams',
+        type: 'website',
+        url: 'https://baggerspion.net/about',
+        images: [
+            {
+                url: `/paul.jpg`
+            },
+        ],
     }
-  }
+}
 
 export default function About() {
     return (

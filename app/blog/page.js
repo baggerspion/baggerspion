@@ -6,6 +6,23 @@ import Link from 'next/link'
 
 import Footer from '../components/Footer'
 
+export const metadata = {
+    title: 'Baggerspion: Blog.',
+    description: 'Fractional Engineering Leadership from Paul Finlayson Adams',
+    openGraph: {
+        title: 'Baggerspion: Blog.',
+        siteName: 'Baggerspion.',
+        description: 'Fractional Engineering Leadership from Paul Finlayson Adams',
+        type: 'website',
+        url: 'https://baggerspion.net/blog',
+        images: [
+            {
+                url: `/paul.jpg`
+            },
+        ],
+    }
+}
+
 export default function Blog() {
     const posts = getAllPosts(["title", "date", "excerpt", "image", "slug"])
 
