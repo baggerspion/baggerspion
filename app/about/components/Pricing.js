@@ -4,7 +4,7 @@ import Tick from "./Tick"
 
 export default function Pricing() {
     return (
-        <div className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center text-white p-[6rem]">
+        <div className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center text-white p-[3rem] md:p-[6rem]">
             <h3 className="text-leader pb-8">Pricing</h3>
             <p className="text-about leading-8 pb-8 text-white">
                 I provide three consulting products to suit different scenarios. Each product comes with its own price point, designed to be cost effective to startups. Volume discounting is available for all three consulting rates.
