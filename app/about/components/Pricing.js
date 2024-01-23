@@ -16,7 +16,7 @@ export default function Pricing() {
                             <div className="font-semibold mb-1">On-Demand</div>
                             <div className="inline-flex items-baseline mb-2">
                                 <span className="font-bold text-3xl">£</span>
-                                <span className="font-bold text-4xl">200</span>
+                                <span className="font-bold text-4xl">250</span>
                                 <span className="text-slate-500 font-medium">/hour</span>
                             </div>
                             <div className="text-sm text-slate-500 mb-5">Keep things moving with my experienced, impartial advice when it&apos;s most valuable to you. </div>
