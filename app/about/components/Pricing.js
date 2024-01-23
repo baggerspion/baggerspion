@@ -4,19 +4,19 @@ import Tick from "./Tick"
 
 export default function Pricing() {
     return (
-        <div className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center text-white p-[3rem] md:p-[6rem]">
+        <div className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center text-white p-[6rem]">
             <h3 className="text-leader pb-8">Pricing</h3>
             <p className="text-about leading-8 pb-8 text-white">
                 I provide three consulting products to suit different scenarios. Each product comes with its own price point, designed to be cost effective to startups. Volume discounting is available for all three consulting rates.
             </p>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div className="h-full">                                
                     <div className="relative flex flex-col h-full p-6 pb-10">
                         <div className="mb-5">
                             <div className="font-semibold mb-1">On-Demand</div>
                             <div className="inline-flex items-baseline mb-2">
                                 <span className="font-bold text-3xl">£</span>
-                                <span className="font-bold text-4xl">300</span>
+                                <span className="font-bold text-4xl">200</span>
                                 <span className="text-slate-500 font-medium">/hour</span>
                             </div>
                             <div className="text-sm text-slate-500 mb-5">Keep things moving with my experienced, impartial advice when it&apos;s most valuable to you. </div>
