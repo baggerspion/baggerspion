@@ -102,7 +102,7 @@ export default function Testimonials() {
     }, [testimonial, testimonials.length])
 
     return (
-        <section className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center items-center text-white p-[3rem] md:p-[6rem]">
+        <section id="testimonials" className="w-full min-h-[30rem] bg-[url('/background.jpg')] bg-cover bg-center bg-overlay bg-blend-overlay bg-fixed flex flex-col justify-center items-center text-white p-[3rem] md:p-[6rem]">
             <p className='tracking-wide text-center pb-12 font-semibold text-leader'>&quot;{testimonials[testimonial].content}&quot;</p>
             <div className='flex flex-row space-x-8 mx-auto'>
                 <Image className="rounded-full" src={testimonials[testimonial].image} width={56} height={56} alt={testimonials[testimonial].name} />
