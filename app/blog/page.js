@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import Footer from '../components/Footer'
+import Menu from '../components/Menu'
 
 export const metadata = {
     title: 'Baggerspion: Blog.',
@@ -30,6 +31,7 @@ export default function Blog() {
         <main className='flex flex-col'>
             <div className='flex flex-col p-[3rem] md:p-[6rem] bg-white items-center'>
                 <h2 className='text-header'>Blog</h2>
+                <Menu home={false} />
             </div>
             {posts.map((post, index) => (
                 <div key={index} className='flex flex-col md:even:flex-row md:odd:flex-row-reverse'>

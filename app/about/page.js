@@ -3,6 +3,7 @@ import Mission from "./components/Mission"
 import Fractional from "./components/Fractional"
 import Paul from "./components/Paul"
 import Pricing from "./components/Pricing"
+import Menu from "../components/Menu"
 
 export const metadata = {
     title: 'Baggerspion: About.',
@@ -26,6 +27,7 @@ export default function About() {
         <main className="flex flex-col">
             <div className='flex flex-col p-[3rem] md:p-[6rem] bg-white items-center'>
                 <h1 className='text-header'>About</h1>
+                <Menu home={false} />
             </div>
             <Fractional />
             <Paul />
