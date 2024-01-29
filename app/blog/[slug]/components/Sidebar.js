@@ -12,9 +12,10 @@ export default function Sidebar({ current }) {
             <div className="hidden md:block">
                 <h2 className="text-leader pb-4">Navigate</h2>
                 <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/blog">Blog</Link></li>
-                    <li><Link href="/#session">Introductory Meeting</Link></li>
+                    <li><Link href="/"><span>Home</span></Link></li>
+                    <li><Link href="/about"><span>About</span></Link></li>
+                    <li><Link href="/#session"><span>Introductory Meeting</span></Link></li>
+                    <li><Link href="/#testimonials"><span>Testimonials</span></Link></li>
                 </ul>
             </div>
             <div>
