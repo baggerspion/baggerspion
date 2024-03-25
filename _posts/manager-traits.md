@@ -59,4 +59,8 @@ I guess this leads us on to...
 
 ### Problem Solving and Decision Making
 
-Engineering managers face complex problems that require thoughtful analysis and decisive action. This involves not just technical problems, but also issues related to team dynamics, project constraints, and organisational challenges. A good engineering manager should be able to approach problems systematically, evaluate different solutions, and make informed decisions quickly.
+Engineering managers face complex problems that require thoughtful analysis and decisive action. This involves not just technical problems, but also issues related to team dynamics, project constraints, and organisational challenges. A good engineering manager should be able to approach problems systematically, evaluate different solutions, and make informed decisions.
+
+So that's where the technical competence helps. If the team cannot navigate, for example, a "should we do X or Y?"-type question, you need to be on hand to see them through it. Now, this can be a matter of style... A more technically-minded EM might be tempted to make the decision. Personally, I would rather use my technical knowledge to steer the conversation. Have both options really been evaluated form the perspective of the user? What about cost or time of implementation? Does one of these solutions greatly increase the maintenance burden?
+
+For many _things_ the EM is definitely the decision-maker and it is not necesarily appropriate to delegate to the team. For example, the team should absolutely have their input on hiring, but the EM needs to be the decision-maker. As with leadership in any domain, it is important for EMs to be decisive. This does not mean that decisions must come thick and fast, but they must be stuck to until they have proven to be a sucess or a failure (which is a totally fine outcome, btw). Flip-flopping on decisions will erode the team's confidence pretty quickly.
