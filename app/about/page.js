@@ -31,7 +31,6 @@ export default function About() {
             </div>
             <Fractional />
             <Paul />
-            <Pricing />
             <Mission />
             <Footer />
         </main>
