@@ -81,6 +81,6 @@ So there you have it, the 5 skills/traits an engineer must have to consider beco
 - Technical Competence
 - Problem Solving and Decision Making
 
-Chances are, by the time you've made it to senior engineer, you've already honed a few of these. If a few (most?) of these are still work in progress, that is absolutely not a barrier to becoming a manager. Don't forget: management is a completely different career path and you'll become "junior" all over again... So, you should have plenty time to developer these skills.
+Chances are, by the time you've made it to senior engineer, you've already honed a few of these. If a few (most?) of these are still work in progress, that is absolutely not a barrier to becoming a manager. Don't forget: management is a completely different career path and, as you make the change, you'll become "junior" all over again... You should have plenty time to develop these skills!
 
 On the flip side, if any of these skills/traits do not come naturally to you or you have no interest in developing them, then management might not be the right path for you. But, fair warning, these skills will also be useful to you as an engineer. You'll just use them differently.
